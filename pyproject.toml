@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "timezones-and-regular-expressions"
+version = "0.1.0"
+description = ""
+authors = ["Liza1928 <lizochka.dostoevskaya@mail.ru>"]
+
+[tool.poetry.dependencies]
+python = "3.9.2"
+SQLAlchemy = "1.3.24"
+pytz = "^2021.1"
+databases = {extras = ["postgresql"], version = "^0.4.3"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
