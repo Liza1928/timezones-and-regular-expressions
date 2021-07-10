@@ -1,0 +1,11 @@
+[default]
+db_user = 'time_regex'
+db_password = 'password'
+db_host = '127.0.0.1'
+db_name = 'time_regex_db'
+db_port = '5432'
+db_conn_min_size = 1
+db_conn_max_size = 10
+db_conn_max_lifetime = 300
+data_format = ["id", "fio", "birthday", "birthday_timezone", "residence_timezone"]
+data_check = "birthday"
